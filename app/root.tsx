@@ -4,6 +4,7 @@ import {
   Outlet,
   Scripts,
 } from "@remix-run/react";
+import "./tailwind.css";
 
 export default function App() {
   return (
@@ -17,7 +18,6 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <h1>Hello world!</h1>
         <Outlet />
 
         <Scripts />
