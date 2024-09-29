@@ -1,40 +1,73 @@
-# Welcome to Remix!
+# Timer App ⏱️
 
-- 📖 [Remix docs](https://remix.run/docs)
+A simple, efficient time tracking app designed to help you focus and manage your time better. Built with **React**, **Tauri**, **Typescript**, **Tailwind CSS**, and **Motion Number**, this app allows users to count time accurately and in style, with support for both regular timers and speed-focused tracking.
 
-## Development
+## Features
+- ⏳ **Time Tracking:** Set up and track hours, minutes, and seconds with an intuitive UI.
+- ⚡ **Performance Focused:** Built with modern web technologies for fast, lightweight, and responsive time tracking.
+- 🎨 **Beautiful UI:** Styled with **Tailwind CSS** for a clean and responsive interface.
+- 🎥 **Smooth Animations:** Using **Motion Number** to animate time transitions.
+- 🖥️ **Cross-Platform:** Packaged using **Tauri** for a native-like experience on desktop (Windows, macOS, Linux).
+  
+## Technologies Used
+- **Tauri:** Build smaller, faster, and more secure desktop applications with web technologies.
+- **React:** A JavaScript library for building user interfaces.
+- **Typescript:** Typed JavaScript that scales.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **Motion Number:** A component for animating numbers smoothly.
 
-Run the dev server:
+## Installation & Setup
 
-```shellscript
-npm run dev
-```
+To get started with the Timer App locally:
 
-## Deployment
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [Tauri CLI](https://tauri.app/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-First, build your app for production:
+### Step-by-step instructions
 
-```sh
-npm run build
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/timer-app.git
+    ```
 
-Then run the app in production mode:
+2. Navigate into the project directory:
+    ```bash
+    cd timer-app
+    ```
 
-```sh
-npm start
-```
+3. Install dependencies:
+    ```bash
+    npm install
+    # or if using yarn
+    yarn install
+    ```
 
-Now you'll need to pick a host to deploy it to.
+4. Run the development server:
+    ```bash
+    npm run tauri dev
+    ```
 
-### DIY
+5. Build the app for production:
+    ```bash
+    npm run tauri build
+    ```
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+## Usage
 
-Make sure to deploy the output of `npm run build`
+- **Start the timer** by pressing the "Start" button.
+- **Pause** the timer by clicking the "Stop" button.
+- **Reset** the timer by pressing the "Reset" button.
 
-- `build/server`
-- `build/client`
+## Screenshots
 
-## Styling
+![Timer App Screenshot](./screenshot.png)
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+
+
+### Author
+Lamjadli Mohamed
+
+Feel free to reach out with any questions or feedback!
